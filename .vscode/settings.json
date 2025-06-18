@@ -1,0 +1,24 @@
+{
+    "folder-customization.folders": [
+        {
+            "path": "AutoRoomer\\src\\",
+            "color": "foldercustomization.AnsiColor33"
+        },
+        {
+            "path": "AutoRoomer\\locales\\",
+            "color": "foldercustomization.AnsiColor161"
+        },
+        {
+            "path": "AutoRoomer\\drafts\\",
+            "color": "foldercustomization.AnsiColor86"
+        },
+        {
+            "path": "AutoRoomer\\src\\cogs\\",
+            "color": "foldercustomization.AnsiColor196"
+        },
+        {
+            "path": "AutoRoomer\\src\\utils\\",
+            "color": "foldercustomization.AnsiColor118"
+        }
+    ]
+}
