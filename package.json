@@ -1,6 +1,6 @@
 {
   "name": "autoroomer",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple room creation, auto-sorting, and participant tracking for Discord servers",
   "scripts": {
     "release": "standard-version"
