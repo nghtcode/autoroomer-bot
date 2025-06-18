@@ -1,0 +1,13 @@
+{
+    "welcome_message": "Welcome, {user}!",
+    "help_command": "List of commands: {commands}",
+    "error_invalid_amount": "Invalid amount: {amount}. Must be between 1 and 100.",
+    "clear_success": "Cleared {amount} messages.",
+    "embeds": {
+        "embed_0": {
+            "title": "Embed Title 0 for",
+            "description": "This is description for embed 0. Welcome!",
+            "color": 16630638
+        }
+    }
+}
