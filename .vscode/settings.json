@@ -6,7 +6,7 @@
         },
         {
             "path": "AutoRoomer\\locales\\",
-            "color": "foldercustomization.AnsiColor161"
+            "color": "foldercustomization.AnsiColor128"
         },
         {
             "path": "AutoRoomer\\drafts\\",
@@ -14,7 +14,7 @@
         },
         {
             "path": "AutoRoomer\\src\\cogs\\",
-            "color": "foldercustomization.AnsiColor196"
+            "color": "foldercustomization.AnsiColor88"
         },
         {
             "path": "AutoRoomer\\src\\utils\\",
