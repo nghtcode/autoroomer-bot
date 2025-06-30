@@ -1,13 +1,35 @@
 {
-    "welcome_message": "Welcome, {user}!",
-    "help_command": "List of commands: {commands}",
-    "error_invalid_amount": "Invalid amount: {amount}. Must be between 1 and 100.",
-    "clear_success": "Cleared {amount} messages.",
     "embeds": {
-        "embed_0": {
-            "title": "Embed Title 0 for",
-            "description": "This is description for embed 0. Welcome!",
-            "color": 16630638
+        "create_message": {
+            "title": "Looking for member",
+            "description": "",
+            "color": 16630638,
+            "fields": [
+                {
+                    "name": "",
+                    "value": {
+                        "participant": ">>> {suffix} <@{user_id}>\n⠀├ INFO_1: <@&YOUR_ID_ROLE>\n⠀└ INFO_2: <@&YOUR_ID_ROLE>",
+                        "free_slot": "[FREE] Free slot"
+                    },
+                    "inline": false
+                },
+                {
+                    "name": "",
+                    "value": "➤ **Comment:** {comment}",
+                    "inline": false
+                }
+            ],
+            "bot": {
+                "name": "AUTOROOMER",
+                "url": "https://cdn-icons-png.freepik.com/512/8224/8224135.png"
+            },
+            "thumbnail": {
+                "url": "https://pngimg.com/d/discord_PNG12.png"
+            },
+            "footer": {
+                "text": "github.com/nghtcode/autoroomer-bot",
+                "icon_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
+            }
         }
     }
 }

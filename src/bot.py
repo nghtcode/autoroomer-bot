@@ -9,8 +9,7 @@ class Bot(commands.Bot):
     __slots__ = ('config', 'localization', 'logger', 'cog_loggers')
 
     def __init__(self, config, localization, logger):
-        intents = discord.Intents(guilds=True, messages=True, message_content=True)
-        super().__init__(command_prefix='!', intents=intents)
+        super().__init__(command_prefix='!', intents=discord.Intents.all())
         self.config = config
         self.localization = localization
         self.logger = logger
@@ -18,7 +17,7 @@ class Bot(commands.Bot):
 
     async def setup(self):
         await self.load_cogs()
-
+    
     async def load_cogs(self):
         """Loading of all cogs from the src/cogs folder"""
         for file_path in Path("./src/cogs").iterdir():

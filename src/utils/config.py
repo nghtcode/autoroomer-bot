@@ -2,9 +2,7 @@ import os
 from dotenv import load_dotenv
 
 
-class Config:
-    __slots__ = ('token', 'text_channel_id', 'voice_1', 'voice_2', 'voice_3', 'lang', 'logger')
-    
+class Config:    
     def __init__(self):
         load_dotenv()
         self.token = os.getenv("DISCORD_TOKEN")
@@ -12,7 +10,10 @@ class Config:
         self.voice_1 = int(os.getenv("VOICE_1"))
         self.voice_2 = int(os.getenv("VOICE_2"))
         self.voice_3 = int(os.getenv("VOICE_3"))
-        self.lang = os.getenv("LANG", "en.json")
+        self.category_create_room = int(os.getenv("CATEGORY_CREATE_ROOM"))
+        self.category_find = int(os.getenv("CATEGORY_FIND"))
+        self.category_filled = int(os.getenv("CATEGORY_FILLED"))
+        self.lang = os.getenv("LANG")
         self.logger = None
         
     async def initialize(self, logger):

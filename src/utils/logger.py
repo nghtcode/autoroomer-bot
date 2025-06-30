@@ -48,7 +48,7 @@ class AsyncLogger:
         if self._task:
             self._task.cancel()
         self.logger.handlers.clear()
-        print(f"❌ Logger {self.logger.name} has been stopped")
+        print(f"❌ {self.logger.name} has been stopped")
 
 async def setup_async_logger(name: str) -> AsyncLogger:
     """Creates and returns an asynchronous logger"""
